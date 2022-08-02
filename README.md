@@ -6,6 +6,7 @@ This project is an umbrella containing various apps using PySimpleGUI. These are
 
 1. [UnitConverter.py](#unitconverterpy)
 2. [Calculator.py](#calculatorpy)
+3. [TextEditor.py](#texteditorpy)
 
 ### UnitConverter.py
 
@@ -20,6 +21,12 @@ Showcase of initial running of app:
 This app can perform basic mathematical operations such as addition, subtraction, multiplication, etc. It also has features to change the theme of the layout by right-clicking the output text.
 
 ![github_ReadME_Calculator](https://user-images.githubusercontent.com/72211395/182464367-e57fe813-deb2-41e2-a1bd-a6095c79567d.png)
+
+### TextEditor.py
+
+This app can display text inputted by the user. It can save and open text files, measure the word count of the file, and has additional symbols that can be added from a menu.
+
+![github_ReadME_TextEditor](https://user-images.githubusercontent.com/72211395/182471258-f49538b8-6b90-4421-b0f0-8619a716f24d.png)
 
 ## User Instructions
 
