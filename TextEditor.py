@@ -1,22 +1,22 @@
 import PySimpleGUI as sg
 from pathlib import Path
 
-# global
-smileys = [
-    'happy', [':)', 'xD', ':D', '<3'],
-    'sad', [':(', 'T_T'],
-    'other', [':3']
-    ]  # these are ordered in "name", [events] -> "name", [events] -> etc
-
-menu_layout = [
-    ['File', ['Open', 'Save as', '---', 'Exit']],
-    ['Tools', ['Word Count']],
-    ['Add', smileys]
-    ]
-
 
 def main():
     sg.theme('GrayGrayGray')
+
+    smileys = [
+        'happy', [':)', 'xD', ':D', '<3'],
+        'sad', [':(', 'T_T'],
+        'other', [':3']
+        ]  # these are ordered in "name", [events] -> "name", [events] -> etc
+
+    menu_layout = [
+        ['File', ['Open', 'Save as', '---', 'Exit']],
+        ['Tools', ['Word Count']],
+        ['Add', smileys]
+        ]
+
     layout = [
         [sg.Menu(menu_layout)],
         [sg.Text('Untitled', key='-DOCNAME-')],
