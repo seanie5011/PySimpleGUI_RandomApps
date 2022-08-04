@@ -7,6 +7,7 @@ This project is an umbrella containing various apps using PySimpleGUI. These are
 1. [UnitConverter.py](#unitconverterpy)
 2. [Calculator.py](#calculatorpy)
 3. [TextEditor.py](#texteditorpy)
+4. [VideoDownloader.py](videodownloaderpy)
 
 ### UnitConverter.py
 
@@ -27,6 +28,16 @@ This app can perform basic mathematical operations such as addition, subtraction
 This app can display text inputted by the user. It can save and open text files, measure the word count of the file, and has additional symbols that can be added from a menu.
 
 ![github_ReadME_TextEditor](https://user-images.githubusercontent.com/72211395/182471258-f49538b8-6b90-4421-b0f0-8619a716f24d.png)
+
+### VideoDownloader.py
+
+This app can take in the url of a YouTube video to be downloaded using pytube. It can give video details like channel, title, views, etc. In the second tab it displays all the available streams / versions that can be downloaded, showcasing filetype, filesize and more. The user can add filters such as progressive (video and audio), adaptive (only video or only audio), audio tracks, and mp4 files only. Upon finding a stream the user would like to download, they identify the *tag* and can input this to download the video to a desired location, as determined in a popup for the user.
+
+**EXTRA:**
+Some more work could be done on exception handling, and perhaps adding a progress bar to indicate when a download is finished.
+
+![github_ReadME_VideoDownloader_tab1](https://user-images.githubusercontent.com/72211395/182928657-eec70bad-b0f0-4e6b-bebc-cea947e3fb89.png)
+![github_ReadME_VideoDownloader_tab2](https://user-images.githubusercontent.com/72211395/182928684-4699a666-5ba1-4020-82b2-8095988a6d41.png)
 
 ## User Instructions
 
